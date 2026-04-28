@@ -1,16 +1,10 @@
 return {
-  {
-    "neanias/everforest-nvim",
-    config = function()
-      require("everforest").setup({
-        transparent_background_level = 1,
-      })
-    end,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "everforest",
+  "tokyonight.nvim",
+  opts = {
+    transparent = true,
+    styles = {
+      sidebars = "transparent",
+      floats = "transparent",
     },
   },
 }

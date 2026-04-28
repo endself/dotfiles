@@ -1,6 +1,7 @@
 font-size = 20
-font-family = "Hack Nerd Font"
-theme = Everforest Dark Hard
+font-family = "Lilex Nerd Font"
+
+theme = TokyoNight Moon
 
 background-opacity = 0.8
 background-blur-radius = 20
@@ -11,4 +12,4 @@ window-padding-x = 15
 
 
 window-save-state = always
-background = #000000
+#background = #000000
